@@ -43,6 +43,8 @@ Tests were conducted on a **MacBook Air M1 (2020)** with **clang++-mp-18**. The 
 | `./src/freeverb-od-ocpp-s2`    | 0.611917 ms    |
 | `./src/freeverb-od-ocpp-s3`    | 0.764458 ms    |
 | `./src/freeverb-od-ocpp`       | 0.63625 ms     |
+| `./src/od0freeverb-od-ocpp-s2` | 0.012875 ms    |
+| `./src/od1freeverb-od-ocpp-s2` | 0.692750 ms    |
 | `./src/od0freeverb-od-ocpp-s3` | 0.008166 ms    |
 | `./src/od1freeverb-od-ocpp-s3` | 0.692583 ms    |
 
