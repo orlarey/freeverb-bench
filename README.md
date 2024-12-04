@@ -48,7 +48,7 @@ Tests were conducted on a **MacBook Air M1 (2020)** with **clang++-mp-18**. The 
 | `./src/od0freeverb-od-ocpp-s3` | 0.008166 ms    |
 | `./src/od1freeverb-od-ocpp-s3` | 0.692583 ms    |
 
-The same tests on a **AMD Ryzen™ 7 7735HS** with **clang++-mp-18** have the following execution times:
+The same tests on a **AMD Ryzen™ 7 7735HS** with **clang++-18** have the following execution times:
 
 | File                           | Execution Time |
 | ------------------------------ | -------------- |
@@ -65,4 +65,21 @@ The same tests on a **AMD Ryzen™ 7 7735HS** with **clang++-mp-18** have the fo
 | `./src/od0freeverb-od-ocpp-s3` | 0.004228 ms    |
 | `./src/od1freeverb-od-ocpp-s3` | 1.00264 ms     |
 
+The same tests on a **AMD Ryzen™ 7 7735HS** but using **g++-14** have the following execution times:
 
+```markdown
+| File                               | Execution Time |
+|------------------------------------|-------------|
+| `./src/freeverb-md-cpp`            | 1.36022 ms  |
+| `./src/freeverb-md-ocpp`           | 1.00281 ms  |
+| `./src/freeverb-od-ocpp`           | 0.829129 ms |
+| `./src/freeverb-od-ocpp-s0`        | 0.825723 ms |
+| `./src/freeverb-od-ocpp-s1`        | 1.43502 ms  |
+| `./src/freeverb-od-ocpp-s2`        | 0.973048 ms |
+| `./src/freeverb-od-ocpp-s2-li`     | 0.968099 ms |
+| `./src/freeverb-od-ocpp-s3`        | 1.19261 ms  |
+| `./src/od0freeverb-od-ocpp-s2`     | 0.00518 ms  |
+| `./src/od0freeverb-od-ocpp-s3`     | 0.00529 ms  |
+| `./src/od1freeverb-od-ocpp-s2`     | 1.06496 ms  |
+| `./src/od1freeverb-od-ocpp-s3`     | 1.06941 ms  |
+``````
