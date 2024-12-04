@@ -48,3 +48,21 @@ Tests were conducted on a **MacBook Air M1 (2020)** with **clang++-mp-18**. The 
 | `./src/od0freeverb-od-ocpp-s3` | 0.008166 ms    |
 | `./src/od1freeverb-od-ocpp-s3` | 0.692583 ms    |
 
+The same tests on a **AMD Ryzen™ 7 7735HS** with **clang++-mp-18** have the following execution times:
+
+| File                           | Execution Time |
+| ------------------------------ | -------------- |
+| `./src/freeverb-md-cpp`        | 1.29253 ms     |
+| `./src/freeverb-md-ocpp`       | 1.12363 ms     |
+| `./src/freeverb-od-ocpp-s0`    | 0.968309 ms    |
+| `./src/freeverb-od-ocpp-s1`    | 1.42115 ms     |
+| `./src/freeverb-od-ocpp-s2-li` | 1.03247 ms     |
+| `./src/freeverb-od-ocpp-s2`    | 1.00421 ms     |
+| `./src/freeverb-od-ocpp-s3`    | 1.23566 ms     |
+| `./src/freeverb-od-ocpp`       | 0.977707 ms    |
+| `./src/od0freeverb-od-ocpp-s2` | 0.004037 ms    |
+| `./src/od1freeverb-od-ocpp-s2` | 1.0203 ms      |
+| `./src/od0freeverb-od-ocpp-s3` | 0.004228 ms    |
+| `./src/od1freeverb-od-ocpp-s3` | 1.00264 ms     |
+
+
